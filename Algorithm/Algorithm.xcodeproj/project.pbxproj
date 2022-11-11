@@ -14,6 +14,7 @@
 		28F89452291D19120008BABD /* 이진수더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F89451291D19120008BABD /* 이진수더하기.swift */; };
 		28F89454291D194E0008BABD /* 서울에서 김서방 찾기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F89453291D194E0008BABD /* 서울에서 김서방 찾기.swift */; };
 		28F983DA291E7227008C03B2 /* 캐릭터의 좌표.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F983D9291E7227008C03B2 /* 캐릭터의 좌표.swift */; };
+		28F983DC291E7333008C03B2 /* 수박수박수박수박수?.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F983DB291E7333008C03B2 /* 수박수박수박수박수?.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -37,6 +38,7 @@
 		28F89451291D19120008BABD /* 이진수더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "이진수더하기.swift"; sourceTree = "<group>"; };
 		28F89453291D194E0008BABD /* 서울에서 김서방 찾기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "서울에서 김서방 찾기.swift"; sourceTree = "<group>"; };
 		28F983D9291E7227008C03B2 /* 캐릭터의 좌표.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "캐릭터의 좌표.swift"; sourceTree = "<group>"; };
+		28F983DB291E7333008C03B2 /* 수박수박수박수박수?.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "수박수박수박수박수?.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				28EFB0572917E41400C40402 /* 두 개 뽑아서 더하기.swift */,
 				28F89453291D194E0008BABD /* 서울에서 김서방 찾기.swift */,
+				28F983DB291E7333008C03B2 /* 수박수박수박수박수?.swift */,
 			);
 			path = Lv.1;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				28F89450291D18F90008BABD /* 중복된 문자 제거.swift in Sources */,
 				284E94A629173505004A0B6C /* main.swift in Sources */,
+				28F983DC291E7333008C03B2 /* 수박수박수박수박수?.swift in Sources */,
 				28F89452291D19120008BABD /* 이진수더하기.swift in Sources */,
 				28F89454291D194E0008BABD /* 서울에서 김서방 찾기.swift in Sources */,
 				28F8944E291D18D00008BABD /* 등수매기기.swift in Sources */,
