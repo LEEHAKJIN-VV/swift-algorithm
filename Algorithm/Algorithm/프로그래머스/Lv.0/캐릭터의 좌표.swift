@@ -23,12 +23,4 @@ func solution(_ keyinput:[String], _ board:[Int]) -> [Int] {
     return location
 }
 
-//var result1 = solution(["left", "right", "up", "right", "right"], [11,11]) // [2,1]
-var result2 = solution(["down", "down", "down", "down", "down"], [7, 9]) // [0,-4]
-var result3 = solution(["down"], [1,1])
-
-//print(result1)
-print(result2)
-print(result3)
-
 
