@@ -6,24 +6,19 @@ import Foundation
 //[1]    1
 
 import Foundation
-//
-//letter    result
-//".... . .-.. .-.. ---"    "hello"
-//".--. -.-- - .... --- -."    "python"
 
-func solution(_ letter:String) -> String {
-    let morseCode: [String:String] = [
-        ".-":"a","-...":"b","-.-.":"c","-..":"d",".":"e","..-.":"f",
-        "--.":"g","....":"h","..":"i",".---":"j","-.-":"k",".-..":"l",
-        "--":"m","-.":"n","---":"o",".--.":"p","--.-":"q",".-.":"r",
-        "...":"s","-":"t","..-":"u","...-":"v",".--":"w","-..-":"x",
-        "-.--":"y","--..":"z"
-    ]
-    var result = ""
-    let splitLetter = letter.components(separatedBy: " ")
+func solution(_ a:Int, _ b:Int) -> String {
+    let months: [Int] = [0,31,29,31,30,31,30,31,31,30,31,30,31]
+    let day:[String] = ["THU","FRI","SAT","SUN","MON","TUE","WED"]
+    let totalDay: Int = (months[0..<a].reduce(0, +) + b) % 7
     
-    for cypher in splitLetter {
-        result += morseCode[cypher, default: ""]
-    }
-    return result
+    return day[totalDay]
 }
+
+var result1 = solution(5,24)
+var result2 = solution(1,2)
+print(result1)
+
+
+
+
