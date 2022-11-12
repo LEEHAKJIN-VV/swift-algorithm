@@ -1,15 +1,11 @@
-import Foundation
-
-//array    result
-//[1, 2, 3, 3, 3, 4]    3
-//[1, 1, 2, 2]    -1
-//[1]    1
-
-import Foundation
 //
-//letter    result
-//".... . .-.. .-.. ---"    "hello"
-//".--. -.-- - .... --- -."    "python"
+//  모스부호(1).swift
+//  Algorithm
+//
+//  Created by 이학진 on 2022/11/12.
+//
+
+import Foundation
 
 func solution(_ letter:String) -> String {
     let morseCode: [String:String] = [
