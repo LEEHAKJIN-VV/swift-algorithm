@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		284E94A629173505004A0B6C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E94A529173505004A0B6C /* main.swift */; };
+		28BE0A19291FF0AB00DA46CA /* 2016년.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28BE0A18291FF0AB00DA46CA /* 2016년.swift */; };
 		28C598FA291F457C003636C3 /* 최빈값구하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C598F9291F457C003636C3 /* 최빈값구하기.swift */; };
 		28EFB0582917E41400C40402 /* 두 개 뽑아서 더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28EFB0572917E41400C40402 /* 두 개 뽑아서 더하기.swift */; };
 		28F8944E291D18D00008BABD /* 등수매기기.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F8944D291D18D00008BABD /* 등수매기기.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		284E94A229173505004A0B6C /* Algorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Algorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		284E94A529173505004A0B6C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		28BE0A18291FF0AB00DA46CA /* 2016년.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2016년.swift"; sourceTree = "<group>"; };
 		28C598F7291F3CE1003636C3 /* 진료순서정하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "진료순서정하기.swift"; sourceTree = "<group>"; };
 		28C598F9291F457C003636C3 /* 최빈값구하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "최빈값구하기.swift"; sourceTree = "<group>"; };
 		28C598FB291F81D4003636C3 /* 모스부호(1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모스부호(1).swift"; sourceTree = "<group>"; };
@@ -114,6 +116,7 @@
 				28EFB0572917E41400C40402 /* 두 개 뽑아서 더하기.swift */,
 				28F89453291D194E0008BABD /* 서울에서 김서방 찾기.swift */,
 				28F983DB291E7333008C03B2 /* 수박수박수박수박수?.swift */,
+				28BE0A18291FF0AB00DA46CA /* 2016년.swift */,
 			);
 			path = Lv.1;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				28F8944E291D18D00008BABD /* 등수매기기.swift in Sources */,
 				28F983DA291E7227008C03B2 /* 캐릭터의 좌표.swift in Sources */,
 				28EFB0582917E41400C40402 /* 두 개 뽑아서 더하기.swift in Sources */,
+				28BE0A19291FF0AB00DA46CA /* 2016년.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

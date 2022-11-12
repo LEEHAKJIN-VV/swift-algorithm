@@ -1,4 +1,9 @@
-
+//
+//  2016년.swift
+//  Algorithm
+//
+//  Created by 이학진 on 2022/11/13.
+//
 
 import Foundation
 
@@ -12,8 +17,3 @@ func solution(_ a:Int, _ b:Int) -> String {
 
 var result1 = solution(5,24)
 var result2 = solution(1,2)
-print(result1)
-
-
-
-
