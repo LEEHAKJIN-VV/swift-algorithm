@@ -1,9 +1,11 @@
-import Foundation
+//
+//  최빈값구하기.swift
+//  Algorithm
+//
+//  Created by 이학진 on 2022/11/12.
+//
 
-//array    result
-//[1, 2, 3, 3, 3, 4]    3
-//[1, 1, 2, 2]    -1
-//[1]    1
+import Foundation
 
 func solution(_ array:[Int]) -> Int {
     var countDict: [Int:Int] = [:]
@@ -21,5 +23,3 @@ func solution(_ array:[Int]) -> Int {
     
     return (sortedDict[0].value == sortedDict[1].value) ? -1 : sortedDict[0].key
 }
-
-
