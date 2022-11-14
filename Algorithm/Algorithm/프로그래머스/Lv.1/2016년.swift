@@ -15,5 +15,3 @@ func solution(_ a:Int, _ b:Int) -> String {
     return day[totalDay]
 }
 
-var result1 = solution(5,24)
-var result2 = solution(1,2)
