@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		284E94A629173505004A0B6C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284E94A529173505004A0B6C /* main.swift */; };
 		28DD0C5F292269F00079DCF4 /* 약수의 개수와 덧셈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DD0C5E292269F00079DCF4 /* 약수의 개수와 덧셈.swift */; };
+		28DD0C61292273890079DCF4 /* OX퀴즈.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28DD0C60292273890079DCF4 /* OX퀴즈.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,7 @@
 		28C598F9291F457C003636C3 /* 최빈값구하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "최빈값구하기.swift"; sourceTree = "<group>"; };
 		28C598FB291F81D4003636C3 /* 모스부호(1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "모스부호(1).swift"; sourceTree = "<group>"; };
 		28DD0C5E292269F00079DCF4 /* 약수의 개수와 덧셈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "약수의 개수와 덧셈.swift"; sourceTree = "<group>"; };
+		28DD0C60292273890079DCF4 /* OX퀴즈.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OX퀴즈.swift"; sourceTree = "<group>"; };
 		28EFB0572917E41400C40402 /* 두 개 뽑아서 더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "두 개 뽑아서 더하기.swift"; sourceTree = "<group>"; };
 		28F8944D291D18D00008BABD /* 등수매기기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "등수매기기.swift"; sourceTree = "<group>"; };
 		28F8944F291D18F90008BABD /* 중복된 문자 제거.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "중복된 문자 제거.swift"; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				28C598F7291F3CE1003636C3 /* 진료순서정하기.swift */,
 				28C598F9291F457C003636C3 /* 최빈값구하기.swift */,
 				28C598FB291F81D4003636C3 /* 모스부호(1).swift */,
+				28DD0C60292273890079DCF4 /* OX퀴즈.swift */,
 			);
 			path = Lv.0;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				28DD0C5F292269F00079DCF4 /* 약수의 개수와 덧셈.swift in Sources */,
 				284E94A629173505004A0B6C /* main.swift in Sources */,
+				28DD0C61292273890079DCF4 /* OX퀴즈.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
